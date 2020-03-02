@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Questionaire</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <section>
+        <h1>THE PORCHIFIED INITIATIVE</h1>
+                <h1>HIV/AIDS SENSITIZATION DECEMBER 2019.</h1>
+          
+          <h3>DRUG ABUSE: THE MAJOR SETBACK ON THE FIGHT AGAINST HIV/AIDS.</h3>
+              <h4>SURVEY QUESTIONAIRE</h4>
+         
+          <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
+ <fieldset class="userdata">  
+    
+<legend>Respondant Data</legend>  
+<label for="name">Name:</label>   
+<input type="text" id="name" name="name" placeholder="Full Name" autofocus>  
+<label for="qty">Age:</label>          
+<input type="number" id="qty" name="qty" min="1" max="90" placeholder="Age">
+<label for="Occupation">Occupation:</label>
+<input type="text" id="Occupation" name="Occupation" placeholder="Occupation">
+<label for="Location">Location:</label>
+<input type="text" id="Location" name="Location" placeholder="Location">
+<label for="Education">Education:</label>
+<input type="text" id="Education" name="Education" placeholder="Educational Level">
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" placeholder="don't forget your country code +...">
+<label for="email">Email:</label>
+<input type="text" id="email" name="email" placeholder="Email">
+
+ </fieldset> 
+
+<fieldset>
+        <legend>KNOWLEDGE QUESTIONS</legend>
+    <div class="#1">
+<P>What do you understand as Drug Abuse?</P>
+<ol>
+<li><label>
+    <input type="radio" name="drugdefine" value="illicit">The illicit use of drugs
+</label>
+</li>
+<li><label>
+    <input type="radio" name="drugdefine" value="selfadmin">Self administration of drugs without doctor's prescription
+</label>
+</li>
+<li><label>
+    <input type="radio" name="drugdefine" value="both">All of the above
+</label>
+</li>
+</ol>
+</div>
+
+<div class="#2">
+<label for="drugeffect">Drug Abuse can worsen the progress of HIV/AIDS and it's consequences.</label>
+<select id="drugeffect" name="drugeffect">
+    <option selected>choose one...</option>
+    <option value="agree">Agree</option>
+    <option value="disagree">Disagree</option>
+    <option value="indifferent">Indifferent</option>
+</select>
+</div>
+<div class="#3">
+    <label for="describe">How can you describe Drug Abuse and HIV/AIDS as partners in crime?</label>
+    <select id="describe" name="describe">
+        <option selected>choose one...</option>
+    <option value="directly">Drug Abuse directly supports the faster spread of HIV/AIDS</option>
+    <option value="cannot">The HIV/AIDS virus cannot exist without Drug Abuse</option>
+    <option value="indifferent">There is no link whatsoever between Drug Abuse and HIV/AIDS</option>
+    </select>
+    
+</div>
+<div class="#4">
+    <P>The intoxicating effect of Drug Abuse encourages unsafe behaviour that can lead to contacting HIV/AIDS, which includes;</P>
+    <ol>
+<li><label>
+    <input type="radio" name="unsafe" value="rape">Rape
+</label>
+</li>
+<li><label>
+    <input type="radio" name="unsafe" value="unprotected">Engaging in unprotected sex
+</label>
+</li>
+<li><label>
+    <input type="radio" name="unsafe" value="both">All of the above
+</label>
+</li>
+</ol>
+</div>
+<div class="#5">
+     <P>From the No.4 above, is it right to conclude that, Drug Abuse is a major setback on the fight against HIV/AIDS?</P>
+     <ol>
+<li><label>
+    <input type="radio" name="setback" value="yes">Yes
+</label>
+</li>
+<li><label>
+    <input type="radio" name="setback" value="no">No
+</label>
+</li>
+<li><label>
+    <input type="radio" name="setback" value="notsure">Not sure
+</label>
+</li>
+</ol>
+</div>
+<div class="#6">
+     <P>In a percentage range, can you say how much Drug Abuse has posed as a major setback to the fight against HIV/AIDS</P>
+     <ol>
+        <li><label>
+            <input type="radio" name="percentage" value="less">Less than 10%
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="percentage" value="over">Over 10%
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="percentage" value="not">Not up to 30%
+        </label>
+        </li>
+        <li>
+                <label>
+                        <input type="radio" name="percentage" value="others">
+                    </label>
+                    <label for="others">Others</label>
+            <input type="text" id="others" name="others" placeholder="specify">
+            
+        </li>
+    </ol>
+</div>
+<div class="#7">
+     <P>Can you say that, the fight against Drug Abuse has yielded positive results of late?</P>
+     <ol>
+        <li><label>
+            <input type="radio" name="positive" value="yes">Yes
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="positive" value="no">No
+        </label>
+        </li>
+        <li><label>
+            <input type="radio" name="positive" value="cantsay">Can't say
+        </label>
+        </li>
+    </ol>
+</div>
+<div class="#8">
+    <label for="helped">What, in your opinion has mostly helped in the fight against HIV/AIDS?</label>
+    <select id="helped" name="helped">
+        <option selected>choose one...</option>
+    <option value="info">Awareness, sensitization and publicity</option>
+    <option value="treat">Treatment, control and management of the disease</option>
+    <option value="lessons">Lessons from infected persons</option>
+    </select>
+</div>
+<div class="#9">
+    <label for="Opinion">What, in your opinion need to be to improve the compaign against Drug Abuse?</label>
+<input type="text" id="Opinion" name="opinion" placeholder="Be Specific">
+</div>
+<div class="#10">
+         <P>How often do you undergo HIV/AIDS test?</P>
+         <ol>
+            <li><label>
+                <input type="radio" name="often" value="year">Once in a year
+            </label>
+            </li>
+            <li><label>
+                <input type="radio" name="often" value="month">Once in six months
+            </label>
+            </li>
+            <li><label>
+                <input type="radio" name="often" value="cantremember">Can't remember
+            </label>
+            </li>
+                <li><label>
+                        <input type="radio" name="often" value="notyet">Haven't done it before
+                    </label>
+                    </li>
+        </ol>
+</div>
+<label for="comments">Do you have any additional information?</label>
+<textarea id="comments" name="comments" placeholder="Leave a comment"></textarea>
+<label>
+    <input id="subscribe" name="subscribe" type="checkbox" value="subscribe" checked>For further questions, should we call you on the phone number you provided above?
+</label>
+<button type="submit">Submit</button>
+<input id="send_to" type="hidden" name="send_to" value="anigbofredrick@gmail.com">
+</fieldset>
+
+      </form>
+    </section>
+    <aside>
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31768.22816038084!2d5.747372874770648!3d5.562790955630833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041ad089e5d72b9%3A0x1a51489ced0bd4d6!2sEffurun%2C%20Warri!5e0!3m2!1sen!2sng!4v1581409513239!5m2!1sen!2sng" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <address>
+            Porchified Initiative <br>
+            5 Onaidhe close <br>
+            Effurun, Delta State<br>
+           Nigeria
+        </address>
+    </aside>
+</div>
+
+</body>
+
+</html>

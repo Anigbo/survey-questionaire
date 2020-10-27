@@ -10,7 +10,7 @@ body {
     body { font-size: 20px;
            background: #d37676;
            width: 100%;
-           border: 0px;
+           border: none;
     }
      aside {
          display: none;

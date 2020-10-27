@@ -6,7 +6,15 @@ body {
     border-radius: 0.6rem;
     background-color: rgb(221, 22, 22);
 }
-
+@media only screen and (max-width: 600px) {
+    body { font-size: 10px;
+           background: #d37676;
+           width: 100%;
+    }
+     aside {
+         display: none;
+     }
+}
 .wrapper {
     width: 80%;
     margin: 0 auto;

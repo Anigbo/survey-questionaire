@@ -7,7 +7,7 @@ body {
     background-color: rgb(221, 22, 22);
 }
 @media only screen and (max-width: 600px) {
-    body { font-size: 50pxpx;
+    body { font-size: 35pxpx;
            background: #d37676;
            width: 100%;
     }

@@ -118,7 +118,7 @@ input:not([type=radio]):not([type=checkbox]), textarea, select {
 aside {
     margin: 0;
     position: absolute;
-    
+    width: 70%;
     
 }
    .heading {

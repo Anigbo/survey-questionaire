@@ -101,7 +101,7 @@ input:not([type=radio]):not([type=checkbox]), textarea, select {
         font-size: 15px;
         flex-direction: row;
         justify-content: center;
-        width: 70%;
+        width: 76%;
         margin: 2rem;
         border-radius: 1rem;
     
